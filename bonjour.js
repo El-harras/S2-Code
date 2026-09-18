@@ -1,3 +1,5 @@
 console.log("Nom : El harras");
 console.log("Prénom : Mohamed");
-console.log("Formation : Développement Web");
+for (let i=0;i<5;i++){
+    console.log(i);
+}
