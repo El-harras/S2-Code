@@ -8,11 +8,11 @@ console.log(15 <= 22);
 
 //Utiliser une variable
 let age_1 = 21;
-console.log(age >= 16);
+console.log(age_1 >= 16);
 
 //Stocker le résultat
 let age_2 = 20;
-let estMajeur = age >= 18;
+let estMajeur = age_2 >= 18;
 console.log(estMajeur);
 
 //Utiliser &&
@@ -42,6 +42,7 @@ let paiement = false;
 4 L’âge est-il supérieur ou égal à 18 ET la personne est-elle inscrite ?
 5 La personne est-elle inscrite OU le paiement est-il effectué ?
 */
+
 let Q1 = age_3 > 18;
 console.log("L’âge est-il supérieur ou égal à 18 ",Q1);
 console.log("La personne est-elle inscrite ? ",inscrit);
