@@ -93,7 +93,6 @@ for(let m=0; m<=maximum; m++){
     if(m%2==0){
         compt_pairs++;
         somm_pairs+=m;
-    }
-        
+    }     
 }
 console.log("Nombre :",compt_pairs,"et Somme : ",somm_pairs);
