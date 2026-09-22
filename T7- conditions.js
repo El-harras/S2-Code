@@ -44,7 +44,7 @@ let note = 16;
 if (note >= 16) {
     console.log("Tres bien");
 //Utiliser else if
-} else if (note >= 10) {
+} else if (note>=10 && npte<16) {
     console.log("Valide");
 //Utiliser else
 } else {
