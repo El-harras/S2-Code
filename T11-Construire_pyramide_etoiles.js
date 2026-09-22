@@ -1,13 +1,13 @@
-let hauteur = 5;
+let hauteur=5;
 
-if (hauteur > 0) {
-    for (let ligne = 1; ligne <= hauteur; ligne++) {
+if (hauteur>0) {
+    for (let ligne=1; ligne<=hauteur; ligne++) {
         let ligneTexte = "";
-        for (let s = 1; s <= hauteur - ligne; s++) {
-            ligneTexte = ligneTexte + " ";
+        for (let i=1; i<=hauteur-ligne; i++) {
+            ligneTexte +=" ";
         }
-        for (let e = 1; e <= (2 * ligne) - 1; e++) {
-            ligneTexte = ligneTexte + "*";
+        for (let j=1; j<=(2*ligne)-1; j++) {
+            ligneTexte +="*";
         }
         console.log(ligneTexte);
     }
