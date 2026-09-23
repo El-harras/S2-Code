@@ -24,5 +24,3 @@ if(note_1>=10 && presence>=80)
     console.log("Validé");
 else
     console.log("Non validé");
-
-console.log("hi");
