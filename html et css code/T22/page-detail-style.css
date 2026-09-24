@@ -1,0 +1,51 @@
+
+.article-header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px ;
+}
+
+.article-category {
+    border-radius: 18px;
+    color: rgba(87, 87, 208, 0.87);
+    border-style: groove;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#image_ali {
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+#image_1{
+    width: 100%;
+    height: 400px;
+}
+#image_2{
+    width: 100%;
+    height: 40%;
+}
+.article-author {}
+
+.article-main {
+   margin: 0px 250px 0px 250px;
+}
+.article-figure {}
+
+.article-blockquote {
+    background-color: #acccff;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-left: 6px solid #1a6ff8;
+}
+
+cite{
+    display: block;
+    color: #667085;
+}
