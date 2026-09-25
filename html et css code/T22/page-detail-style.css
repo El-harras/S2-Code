@@ -7,9 +7,9 @@
 }
 
 .article-category {
+    border: 2px solid;
     border-radius: 18px;
     color: rgba(87, 87, 208, 0.87);
-    border-style: groove;
     padding: 8px;
 }
 
