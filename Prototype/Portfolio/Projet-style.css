@@ -34,10 +34,6 @@ a {
     display: flex;
 }
 
-.resume {
-    padding-right: 100px;
-}
-
 .resume span {
     color: #00A99D;
 }
@@ -47,9 +43,6 @@ a {
     color: rgb(144, 139, 139);
 }
 
-.informations {
-    display: flex;
-}
 
 .image_projet img {
     width: 60%;
@@ -57,23 +50,29 @@ a {
     padding-left:40% ;
 }
 
-.informations p{
-    padding-right: 100px;
+.informations {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; 
+    flex-wrap: nowrap; 
+}
+
+.info p {
+    margin-left: 5px; 
+    font-size: 11px; 
+    white-space: nowrap; 
+}
+
+.info img {
+    width: 20px; 
+    height: 20px;
 }
 
 .info {
     display: flex;
+    align-items: center; 
 }
 
-.info p{
-    padding-right: 25px;
-    font-size: 12px;
-}
-
-.info img {
-    width: 30px;
-    height: 30px;
-}
 
 .resume button {
     border-radius: 80px;
