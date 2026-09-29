@@ -1,0 +1,83 @@
+body {
+    padding: 10px 40px 0px 40px;
+}
+
+header {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.logo-page {
+    display: flex;
+}
+
+.logo-page img {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: 2px solid white;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    padding-left: 75%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.resume_information {
+    display: flex;
+}
+
+.resume {
+    padding-right: 100px;
+}
+
+.resume span {
+    color: #00A99D;
+}
+
+#defin {
+    font-size: 12px;
+    color: rgb(144, 139, 139);
+}
+
+.informations {
+    display: flex;
+}
+
+.image_projet img {
+    width: 60%;
+    height: 70%;
+    padding-left:40% ;
+}
+
+.informations p{
+    padding-right: 100px;
+}
+
+.info {
+    display: flex;
+}
+
+.info p{
+    padding-right: 25px;
+    font-size: 12px;
+}
+
+.info img {
+    width: 30px;
+    height: 30px;
+}
+
+.resume button {
+    border-radius: 80px;
+    color: white;
+    background-color: #00a99d;
+    padding: 8px 4px 8px 4px;
+}
