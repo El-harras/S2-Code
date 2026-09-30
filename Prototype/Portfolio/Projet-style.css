@@ -43,7 +43,7 @@ a {
     color: rgb(144, 139, 139);
 }
 
-#Organisateur{
+#Organisateur {
     font-size: 18px;
 }
 
@@ -51,30 +51,30 @@ a {
 .image_projet img {
     width: 60%;
     height: 70%;
-    padding-left:40% ;
+    padding-left: 40%;
 }
 
 .informations {
     display: flex;
-    justify-content: space-between; 
-    gap: 10px; 
-    flex-wrap: nowrap; 
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap;
 }
 
 .info p {
-    margin-left: 5px; 
-    font-size: 11px; 
-    white-space: nowrap; 
+    margin-left: 5px;
+    font-size: 11px;
+    white-space: nowrap;
 }
 
 .info img {
-    width: 20px; 
+    width: 20px;
     height: 20px;
 }
 
 .info {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -85,28 +85,51 @@ a {
     padding: 8px 4px 8px 4px;
 }
 
-.Presentation_proget{
+.Presentation_proget {
     display: flex;
     gap: 20px;
 }
 
-.titre_Presentation{
+.titre_Presentation {
     display: flex;
     gap: 5px;
     text-align: center;
 }
 
-.titre_Presentation img{
+.titre_Presentation img {
     width: 40px;
     height: 40px;
     border-radius: 20px;
 }
 
-.Presentation p{
+.Presentation p {
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.Presentation{
+.Presentation {
     padding-right: 15%;
+}
+
+.titre_Objectifs {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+
+.titre_Objectifs img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.informations_Objectifs{
+    display: flex;
+    gap: 10px;
+}
+
+.Objectifs-define img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
 }
