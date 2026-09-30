@@ -39,8 +39,12 @@ a {
 }
 
 #defin {
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(144, 139, 139);
+}
+
+#Organisateur{
+    font-size: 18px;
 }
 
 
@@ -79,4 +83,30 @@ a {
     color: white;
     background-color: #00a99d;
     padding: 8px 4px 8px 4px;
+}
+
+.Presentation_proget{
+    display: flex;
+    gap: 20px;
+}
+
+.titre_Presentation{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+
+.titre_Presentation img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.Presentation p{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Presentation{
+    padding-right: 15%;
 }
