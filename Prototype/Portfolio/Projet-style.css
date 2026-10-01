@@ -123,13 +123,150 @@ a {
     border-radius: 20px;
 }
 
-.informations_Objectifs{
+.informations_Objectifs {
     display: flex;
-    gap: 10px;
+    gap: 15px;
+
 }
 
-.Objectifs-define img{
+.Objectifs-define img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.Objectifs {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    background-color: #daf5f4;
+    border-radius: 20px;
+
+}
+
+
+.Technologies {
+    background-color: #dafbf8;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.title_Technologies {
+    display: inline-flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.title_Technologies img {
+    width: 44px;
+    height: 44px;
+    border-radius: 40px;
+}
+
+
+.qualites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.HTML {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.CSS {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding-right: 30px;
+}
+
+.fonctionnalite{
+    border: 2px;
+    border-style: ridge;
+
+}
+
+.titre_fonctionnalite {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titre_fonctionnalite img {
     width: 40px;
     height: 40px;
     border-radius: 20px;
+}
+
+.fonct {
+    display: flex;
+    gap: 40px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+.princip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.princip img {
+    width: 20px;
+    height: 20px;
+}
+
+.fonctionnalite{
+    border-radius: 20px;
+    width: 50%;
+}
+
+.princip p {
+    margin: 0;
+}
+
+.features-grid{
+    padding-bottom: 20px;
+}
+
+
+.synthese{
+    background-image: url(images/background.png);
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+
+.synthese p{
+    font-style: italic;     
+    color: #4b6584;        
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+}
+
+
+section{
+    display: flex;
+    gap: 5%;
+    margin-top: 30px;
+    padding-bottom: 5%;
 }
