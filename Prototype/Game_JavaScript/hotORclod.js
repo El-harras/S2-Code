@@ -1,10 +1,7 @@
 const prompt = require("prompt-sync")();
-function hot_clod() {
-    let Nombr = Math.floor(Math.random() * 100);
-    return Nombr;
-}
 
-let Nbr = hot_clod();
+let Nbr = Math.floor(Math.random() * 100 + 1);
+console.log(Nbr);
 console.log("Essayez de deviner le Nombre secret. Vous avez 5 essais Bonne chance ! ");
 
 let essai = 5;
@@ -20,7 +17,7 @@ for (let i = 2; i <= essai + 1; i++) {
         Nmbr = prompt("Choisissez un nombre entre 0 et 100. Essai n° " + i + " ");
     }
 
-    else if (Nbr == Nmbr) {
+    else {
         console.log("Vous avez réussi dès la ", i-1, "ère tentative ! Excellent !");
         break;
     }
