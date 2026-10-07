@@ -1,5 +1,5 @@
 body {
-    padding: 10px 40px 0px 40px;
+    padding: 10px 40px 10px 40px;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 }
 
 .logo-page img {
-    display: inline-block;
+    display: flex;
     width: 44px;
     height: 44px;
     border: 2px solid white;
@@ -58,7 +58,6 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    flex-wrap: nowrap;
 }
 
 .info p {
@@ -78,11 +77,15 @@ a {
 }
 
 
-.resume button {
+.button {
+    display: block;
     border-radius: 80px;
     color: white;
     background-color: #00a99d;
-    padding: 8px 4px 8px 4px;
+    max-width: 40%;
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .Presentation_proget {
@@ -192,7 +195,7 @@ a {
     padding-right: 30px;
 }
 
-.fonctionnalite{
+.fonctionnalite {
     border: 2px;
     border-style: ridge;
 
@@ -229,7 +232,7 @@ a {
     height: 20px;
 }
 
-.fonctionnalite{
+.fonctionnalite {
     border-radius: 20px;
     width: 50%;
 }
@@ -238,12 +241,12 @@ a {
     margin: 0;
 }
 
-.features-grid{
+.features-grid {
     padding-bottom: 20px;
 }
 
 
-.synthese{
+.synthese {
     background-image: url(images/background.png);
     background-size: cover;
 
@@ -254,9 +257,9 @@ a {
     width: 70%;
 }
 
-.synthese p{
-    font-style: italic;     
-    color: #4b6584;        
+.synthese p {
+    font-style: italic;
+    color: #4b6584;
     font-size: 18px;
     line-height: 1.6;
     margin: 0;
@@ -264,7 +267,7 @@ a {
 }
 
 
-section{
+section {
     display: flex;
     gap: 5%;
     margin-top: 30px;

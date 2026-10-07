@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    gap: 30%;
+}
+
+.logo{
+    display: flex;
+    gap: 1px;
+    text-align: center;
+}
+.logo img {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: 2px solid white;
+}
+
+.Bonjour{
+    line-height: 2px;
+}
