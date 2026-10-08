@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>taches</title>
     <link rel="stylesheet" href="tache-style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -16,12 +18,68 @@
             <h2>Bonjour Mohamed 👋</h2>
             <P>Voici votre journée d'aujourd'hui</P>
         </div>
+    </header>
+    <main>
         <div class="ajouter">
             <button type="button">+</button>
         </div>
-    </header>
-    <main></main>
+        <br>
+
+        <div class="Organisation">
+            <div class="tetre-Organisation">
+                <img src="imeges/icons8-schedule-24.png" alt="">
+                <h3>Rendez-vous et organisation</h3>
+            </div>
+            <div class="information">
+                <p><time class="time" datetime="10:00">10:00 AM</time></p>
+                <p class="description">Rendez-vous chez le dentiste</p>
+                <div class="importance">
+                    <p class="Organisa_Haute"><span>🛑</span> Haute</p>
+                </div>
+            </div>
+            <hr>
+            <div class="information">
+                <p><time class="time" datetime="10:00">12:00 PM</time></p>
+                <p>Réunion d'équipe</p>
+                <div class="importance">
+                    <p class="Organisa_Normale"><span>🔵</span> Normale</p>
+                </div>
+            </div>
+            <hr>
+            <div class="information">
+                <p><time class="time" datetime="10:00">07:30 AM</time></p>
+                <p>Séance de sport</p>
+                <div class="importance">
+                    <p class="Organisa_Normale"><span>🔵</span> Normale</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Tache-jour">
+            <div class="tetre-tache">
+                <img src="imeges/icons8-compte-vérifié-64.png" alt="">
+                <h3>Mes tâches du jour</h3>
+            </div>
+            <div class="les-taches">
+                <input type="checkbox">Préparer le rapport
+                <p class="Organisa-taches"><span class="">🛑</span>Haute</p>
+                <button type="button"></button>
+            </div>
+            <div class="les-taches">
+                <input type="checkbox">Lire un livre
+                <p class=""><span class="">🔵</span>Normale</p>
+                <button type="button"></button>
+            </div>
+            <div class="les-taches">
+                <input type="checkbox">Répondre aux emails
+                <p class="taches-"><span class="">🛑</span>Haute</p>
+                <button type="button"></button>
+            </div>
+        </div>
+
+    </main>
     <section></section>
     <footer></footer>
 </body>
+
 </html>
