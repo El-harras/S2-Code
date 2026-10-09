@@ -1,0 +1,95 @@
+body{
+    padding: 5px 20px 5px 20px;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.Organisation span{
+    color: #7bef7b;
+}
+
+.resume{
+    color: silver;
+    font-size: 15px;
+}
+
+.information p{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.Organisation a{
+    text-decoration: none;
+    color: black;
+    background-color: #7bef7b;
+    padding: 12px 5px 12px 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Organisation img{
+    display: block;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+}
+
+.definition{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 60%;
+    color: silver;
+}
+
+.Presentation{
+    margin-top: 40px;
+    clear: left;
+}
+
+.Presentation img{
+    float: right;
+    margin-top: -130px;
+}
+
+.Objectifs{
+
+    background-color: #dfffdf;
+    padding: 5px 20px 10px 20px;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+}
+
+.Objectifs dt{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.Objectifs dd{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.Technologies ul{
+    list-style-type: none;
+}
+
+.Technologies li{
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+
+li img{
+    width: 40px;
+    height: 40px;
+}
+
+footer a{
+    text-decoration: none;
+
+}
