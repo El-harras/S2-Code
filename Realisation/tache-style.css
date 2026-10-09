@@ -1,5 +1,6 @@
 article{
     padding: 5px 250px 10px 250px;
+    background-image: url(imeges/Fond.png);
 }
 /*header*/
 header{
@@ -27,7 +28,7 @@ header{
 
 .ajouter button{
     float: right;
-    margin-right:10% ;
+    margin-left: 50% ;
     width: 40px;
     height: 40px;
     background-color: rgb(23, 7, 243);
